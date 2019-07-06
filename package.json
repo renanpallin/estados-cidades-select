@@ -1,0 +1,17 @@
+{
+  "name": "gih-cidades-estados-select",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "api": "json-server --watch db.json --port 8000",
+    "html": "http-server ./public -p 3000 -c-1"
+  },
+  "keywords": [],
+  "author": "Renan Pallin <renanpallin@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "json-server": "^0.15.0"
+  }
+}

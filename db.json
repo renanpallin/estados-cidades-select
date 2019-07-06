@@ -1,0 +1,30 @@
+{
+    "states": [
+        {
+            "id": 1,
+            "name": "São Paulo"
+        },
+        {
+            "id": 2,
+            "name": "Rio de Janeiro"
+        },
+        {
+            "id": 3,
+            "name": "Minas Gerais"
+        },
+        {
+            "id": 4,
+            "name": "Sei lá"
+        }
+    ],
+    "cities": [
+        { "id": 0, "name": "São Paulo", "stateId": 1 },
+        { "id": 1, "name": "Itu", "stateId": 1 },
+        { "id": 2, "name": "Carapicuíba", "stateId": 1 },
+        { "id": 3, "name": "Lapa", "stateId": 2 },
+        { "id": 4, "name": "Barra", "stateId": 2 },
+        { "id": 5, "name": "Extrema", "stateId": 3 },
+        { "id": 6, "name": "Ouro Preto", "stateId": 3 },
+        { "id": 7, "name": "Cidade Não Sei", "stateId": 4 }
+    ]
+}
